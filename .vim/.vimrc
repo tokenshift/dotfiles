@@ -3,8 +3,6 @@ call pathogen#infect()
 
 " NERDTree alias
 map <F2> :NERDTreeToggle<CR>
-" Auto-refresh NERDTree on every write
-autocmd BufWritePost * NERDTreeFocus | execute 'normal R' | wincmd p
 
 " Lorem Ipsum text
 command -nargs=* Lipsum Loremipsum <args>
