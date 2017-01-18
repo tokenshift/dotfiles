@@ -79,3 +79,6 @@
 [submodule ".vim/bundle/vim-ruby-xmpfilter"]
 	path = .vim/bundle/vim-ruby-xmpfilter
 	url = https://github.com/t9md/vim-ruby-xmpfilter.git
+[submodule ".vim/bundle/vim-parinfer"]
+	path = .vim/bundle/vim-parinfer
+	url = git://github.com/bhurlow/vim-parinfer.git
