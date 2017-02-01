@@ -17,7 +17,7 @@ set hidden
 
 " Default color scheme, indentation, etc
 set background=dark
-colorscheme molokai
+colorscheme seoul256
 set autoread nobackup nowritebackup noswapfile
 set tabstop=4 shiftwidth=4 softtabstop=4 noexpandtab smarttab
 set autoindent copyindent
