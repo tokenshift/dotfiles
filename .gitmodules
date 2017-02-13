@@ -88,3 +88,9 @@
 [submodule ".vim/bundle/seoul256.vim"]
 	path = .vim/bundle/seoul256.vim
 	url = https://github.com/junegunn/seoul256.vim.git
+[submodule ".vim/bundle/vCoolor.vim"]
+	path = .vim/bundle/vCoolor.vim
+	url = https://github.com/KabbAmine/vCoolor.vim.git
+[submodule ".vim/bundle/vimwiki"]
+	path = .vim/bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
