@@ -1,9 +1,6 @@
 [submodule ".vim/bundle/vim-slim"]
 	path = .vim/bundle/vim-slim
 	url = https://github.com/slim-template/vim-slim.git
-[submodule ".vim/bundle/VimClojure"]
-	path = .vim/bundle/VimClojure
-	url = https://github.com/vim-scripts/VimClojure.git
 [submodule ".vim/bundle/vim-colorschemes"]
 	path = .vim/bundle/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes.git
