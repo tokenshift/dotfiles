@@ -22,7 +22,10 @@ let g:seoul256_background=235
 set autoread nobackup nowritebackup noswapfile
 set tabstop=4 shiftwidth=4 softtabstop=4 noexpandtab smarttab
 set autoindent copyindent
-set guifont=Lucida\ Console:h14
+set guifont=Fira\ Code:h14
+if has("gui_macvim")
+	set macligatures
+end
 set number ruler cc=80
 set nowrap
 set encoding=utf-8
