@@ -60,6 +60,9 @@ let g:lightline = {
 " Enable filetype plugins
 filetype plugin indent on
 
+" Turn on Terraform auto format
+let g:terraform_fmt_on_save=1
+
 " Display leading/trailing whitespace
 set listchars=tab:--,trail:#,nbsp:+
 set list
