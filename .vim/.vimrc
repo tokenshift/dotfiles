@@ -58,8 +58,7 @@ let g:lightline = {
       \ }
 
 " Enable filetype plugins
-filetype plugin on
-filetype indent on
+filetype plugin indent on
 
 " Display leading/trailing whitespace
 set listchars=tab:--,trail:#,nbsp:+
