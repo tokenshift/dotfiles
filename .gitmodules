@@ -100,3 +100,6 @@
 [submodule ".vim/bundle/vim-terraform"]
 	path = .vim/bundle/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule ".vim/bundle/ludwig-vim"]
+	path = .vim/bundle/ludwig-vim
+	url = https://github.com/fugue/ludwig-vim.git
