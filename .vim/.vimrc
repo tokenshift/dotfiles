@@ -63,6 +63,9 @@ filetype plugin indent on
 " Turn on Terraform auto format
 let g:terraform_fmt_on_save=1
 
+" Configure vim-commentary for terraform
+autocmd FileType terraform setlocal commentstring=#%s
+
 " Display leading/trailing whitespace
 set listchars=tab:--,trail:#,nbsp:+
 set list
