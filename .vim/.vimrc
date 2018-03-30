@@ -89,6 +89,9 @@ imap <silent> <Home> <C-O><Home>
 command Bash ConqueTerm bash
 let g:ConqueTerm_Color = 2
 
+" Source .bashrc
+set shell=bash\ --login
+
 " Rotating between indentation styles (F9).
 function SwitchTabStyle()
   " Style 1: Tabs, not spaces
