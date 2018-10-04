@@ -22,6 +22,10 @@ function rand32() {
 	rand256 | cut -c1-8
 }
 
+function timestamp() {
+	date -u '+%FT%TZ'
+}
+
 export CLICOLOR=
 export LESS='-R'
 export SECRET_KEY_BASE=`rand512`
