@@ -46,8 +46,21 @@ Plugin 'uguu-org/vim-matrix-screensaver'
 Plugin 'vim-scripts/loremipsum'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'vimwiki/vimwiki'
+
+" Plugins that only work on MacVIM
+if has("gui_macvim")
+  Plugin 'Valloric/YouCompleteMe'
+endif
+
 call vundle#end()
+
 filetype plugin indent on
+
+" Set up YCM
+if !exists('g:ycm_semantic_triggers')
+ let g:ycm_semantic_triggers = {}
+endif
+let g:ycm_semantic_triggers['typescript'] = ['.']
 
 " NERDTree alias
 map <F2> :NERDTreeToggle<CR>
@@ -138,6 +151,9 @@ imap <silent> <Home> <C-O><Home>
 " Conque shell
 command Bash ConqueTerm bash
 let g:ConqueTerm_Color = 2
+
+" Source .bashrc
+set shell=bash\ --login
 
 " Rotating between indentation styles (F9).
 function SwitchTabStyle()
