@@ -26,6 +26,8 @@ function timestamp() {
 	date -u '+%FT%TZ'
 }
 
+export PATH="$PATH:/usr/local/go/bin:~/bin"
+
 export CLICOLOR=
 export LESS='-R'
 export SECRET_KEY_BASE=`rand512`
@@ -34,4 +36,4 @@ export GO15VENDOREXPERIMENT=1
 
 source ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
-PS1='\e[0;32m($(date "+%H:%M:%S")) \[\e[1;35m[\e[1;36m\]\u\[\e[1;35m\]@\h \[\e[0;33m\]\w$(__git_ps1)\[\e[1;35m]\]\n\[\e[0;31m\]$\[\e[m\] '
+PS1='\e[90m$(gomo status --auto)\n\e[0;32m($(date "+%H:%M:%S") \[\e[1;35m[\e[1;36m\]\u\[\e[1;35m\]@\h \[\e[0;33m\]\w$(__git_ps1)\[\e[1;35m]\]\n\[\e[0;31m\]$\[\e[m\] '
