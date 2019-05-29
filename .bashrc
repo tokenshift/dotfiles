@@ -26,7 +26,7 @@ function timestamp() {
 	date -u '+%FT%TZ'
 }
 
-export PATH="$PATH:/usr/local/go/bin:~/bin"
+export PATH="$PATH:/usr/local/go/bin:~/go/bin:~/bin"
 
 export CLICOLOR=
 export LESS='-R'
