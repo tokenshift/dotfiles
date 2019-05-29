@@ -153,7 +153,11 @@ command Bash ConqueTerm bash
 let g:ConqueTerm_Color = 2
 
 " Source .bashrc
-set shell=bash\ --login
+set shell=/bin/bash
+set shellcmdflag=-l\ -c
+
+" Go setup
+let $PATH=$PATH.':/usr/local/go/bin'
 
 " Rotating between indentation styles (F9).
 function SwitchTabStyle()
